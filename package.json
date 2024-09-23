@@ -1,0 +1,14 @@
+{
+  "name": "day-07-deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "env:dev": "node --env-file=.env.dev index.js",
+    "env:test": "node --env-file=.env.test index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
